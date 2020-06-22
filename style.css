@@ -59,13 +59,11 @@ p {
     color: gray;
 }
 
-.left {
-    float: left;
+.float-left {
     margin-right: 20px;
 }
 
 /* portfolio*/
-
 
 .text-block {
     
@@ -111,3 +109,20 @@ media query
           <span class="navbar-toggler-icon"></span>
         </button> */
 
+/* Additional Screen Sizes */
+
+
+/* Width at 768px and below */
+@media (max-width: 768px) {
+    
+    .container {    
+        width: 100%;     
+    }
+}
+
+    /* Width at 640px and below */
+    @media (max-width: 640px) {
+           
+    }
+
+    
