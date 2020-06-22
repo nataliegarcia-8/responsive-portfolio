@@ -13,8 +13,10 @@ h1 {
     color: teal;
     margin-top: 20px;
     font-family: 'Playfair Display', serif;
-
 }
+
+
+
 
 hr {
     border-width: 5px;
@@ -32,6 +34,9 @@ nav {
     font-family: 'Playfair Display', serif;
 
 }
+.navbar-nav {
+    margin-right: 20px;
+}
 
 .navbar {
     padding: 0px;
@@ -45,7 +50,7 @@ nav {
 .container {
     background-color: white;
     margin-top: 30px;
-    width: 60%;
+    width: 70%;
     float: left;
     margin-left: 30px;
 }
@@ -79,7 +84,8 @@ p {
 
   .port-img {
       width: 100%;
-      height: 200px;
+      height: 250px;
+      object-fit: cover;
   }
 
   /* contact page */
@@ -100,29 +106,41 @@ p {
 
 /* footer */
 
-border-top: 3px solid teal;
+.footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+    background-color: gray;
+    border-top: 4px solid teal;
+   padding: 20px;
+   }
 
-/* media query 
-media query
+h2 {
+    font-size: 15px;
+} 
 
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> */
-
-/* Additional Screen Sizes */
+/* Additional Screen Sizes - Media Quieries */
 
 
 /* Width at 768px and below */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     
     .container {    
-        width: 100%;     
+        width: 100%; 
+        margin: 20px;    
     }
 }
 
     /* Width at 640px and below */
-    @media (max-width: 640px) {
-           
+    @media only screen and (max-width: 640px) {
+        .container {
+            width: 100%; 
+            margin: 20px;
+        
+        }
     }
 
     
