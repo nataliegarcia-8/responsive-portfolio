@@ -1,54 +1,54 @@
 /* General */
 * {
 font-family: 'Work Sans', sans-serif;
-
 }
 
 body {
-    background-color: 	#D3D3D3;
+    background: linear-gradient(to bottom, #FEDCD2 0%, #DF744A 100%);
 
 }
-
 h1 {
-    color: teal;
+    color: black;
     margin-top: 20px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Work Sans', sans-serif;
 }
-
-
-
 
 hr {
     border-width: 5px;
 }
 
 /* nav bar*/
-nav {
-}
-
 .navbar-brand {
-    background-color: teal;
+    color: black;
+    background-color: #DCD239;
     padding: 15px;
     font-size: 30px;
     margin-left: 20px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Work Sans', sans-serif;
 
 }
+
 .navbar-nav {
     margin-right: 20px;
 }
 
 .navbar {
     padding: 0px;
+    background-color: white;
 }
 
 .nav-item {
-    border-right: 1px solid gray;
+    border-right: 2px solid #8FD8D2;
+}
+
+.nav-link {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
 }
 
 /* container */
 .container {
-    background-color: white;
+    background-color:white;
     margin-top: 30px;
     width: 70%;
     float: left;
@@ -56,30 +56,38 @@ nav {
 }
 
 
-/* about me section */
+/* about me page */
 hr {
     border-width: 5px;
+    background-color: #8FD8D2;
 }
 p {
-    color: gray;
+    color: black;
 }
 
 .float-left {
     margin-right: 20px;
+    object-fit: cover;
 }
 
-/* portfolio*/
+/* portfolio page */
 
 .text-block {
-    
-    font-family: 'Playfair Display', serif;
     position: relative;
-    background-color: teal;
-    color: white;
+    background-color: #DCD239;
     text-align: center;
     bottom: 50px;
-    font-size: 20px;
     padding: 10px;
+  }
+
+  a {
+    font-family: 'Work Sans', sans-serif;;
+    color:black;
+    font-size: 20px;
+  }
+
+  a:hover {
+      color: #8FD8D2;
   }
 
   .port-img {
@@ -91,9 +99,15 @@ p {
   /* contact page */
   .btn-primary 
   {
-      background-color: teal;
+      background-color: #DCD239;
       border-radius: 0px;
       margin-bottom: 20px;
+      border-color: #8FD8D2;
+  }
+
+  .btn-primary:hover {
+      background-color:#8FD8D2;
+      border-color: #8FD8D2;
   }
 
   label {
@@ -111,10 +125,10 @@ p {
    left: 0;
    bottom: 0;
    width: 100%;
-   color: white;
+   color: #8FD8D2;
    text-align: center;
-    background-color: gray;
-    border-top: 4px solid teal;
+    background-color: white;
+    border-top: 4px solid #DCD239;
    padding: 20px;
    }
 
@@ -124,22 +138,22 @@ h2 {
 
 /* Additional Screen Sizes - Media Quieries */
 
-
 /* Width at 768px and below */
 @media only screen and (max-width: 768px) {
-    
-    .container {    
-        width: 100%; 
-        margin: 20px;    
+    body 
+{
+    width:100%;
+}
+    .container {
+        width: 100%;
     }
 }
 
-    /* Width at 640px and below */
+/* Width at 640px and below */
     @media only screen and (max-width: 640px) {
         .container {
             width: 100%; 
-            margin: 20px;
-        
+            margin: 20px; 
         }
     }
 
