@@ -10,14 +10,11 @@ body {
 
 
 }
+
 h1 {
     color: black;
     margin-top: 20px;
     font-family: 'Work Sans', sans-serif;
-}
-
-hr {
-    border-width: 5px;
 }
 
 /* nav bar*/
@@ -31,10 +28,9 @@ hr {
 
 }
 
-.navbar-nav {
+.nav {
     margin-right: 20px;
 }
-
 .navbar {
     padding: 0px;
     background-color: white;
@@ -139,8 +135,9 @@ p {
     width: 100%;
     color: #8FD8D2;
     text-align: center;
-     background-color: white;
-     padding: 20px;
+    background-color: white;
+    padding: 20px;
+    border-top: 5px solid #8FD8D2;
   }
   
 
